@@ -1,0 +1,127 @@
+body{
+    background: #496A92;
+}
+
+.login-div{
+    background: #FFF;
+    width: 440px;
+    height: 480px;
+    vertical-align: middle;
+    position: fixed;
+    z-index: 999;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -os-transition: all 0.2s;
+    left: 50%;
+    top: 50%;
+    margin-top: -240px;
+    margin-left: -220px;
+    /*transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -os-transform: translate(-50%, -50%);*/
+    border-radius: 20px;
+    padding: 50px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.login-title{
+    font-size: 30px;
+    text-align: center;
+    color: #4F8BC7;
+}
+.login-hint{
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+.error-info{
+    width: 100%;
+    background: #eee;
+    color: red;
+    margin: 15px 0;
+    padding: 8px;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translate(0px,10px);
+    transition: all .5s;
+    font-size: 13px;
+}
+.error-info-show{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+.userNameDiv{position: relative;}
+.userPasswordDiv{position: relative;margin-top: 20px;}
+.userNameDiv i{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: #4F8BC7;
+    left: 10px;
+    top: 10px;
+}
+.userNameDiv i:nth-child(1){
+    background: url("../img/1.png");
+}
+.userPasswordDiv i:nth-child(1){
+    background: url("../img/2.png");
+}
+.userName{
+    border: 1px solid #E1E1E1;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 6px;
+    padding-left: 45px;
+    transition: all 1s;
+}
+.userPasswordDiv i{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: #4F8BC7;
+    left: 10px;
+    top: 10px;
+}
+.userPassword{
+    border: 1px solid #E1E1E1;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 6px;
+    padding-left: 45px;
+    transition: all 1s;
+}
+.loginBtn{
+    width: 100%;
+    background: #70BA4E;
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.loginBtn:hover{
+    background: #079712;
+}
+.forgetThePassword{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.forgetThePassword a{
+    color: #999999;
+    margin-left: -20px;
+}
+
+.userName:hover, .userPassword:hover{
+    border: 1px solid #4F8BC7;
+}

@@ -1,0 +1,177 @@
+body{
+    background: #F2F6F7;
+}
+
+.app-content{
+    background: #FFF;
+    padding: 30px;
+}
+
+.content{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 26px;
+    color: #4F8BC7;
+    margin-bottom: 30px;
+}
+.screen i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #EEEEEE;
+    background: url("../img/3.png");
+}
+.screen span{
+    font-size: 20px;
+    color: #4F8BC7;
+    position: relative;
+    top: -7px;
+}
+.screen{
+    margin-bottom: 10px;
+}
+.screenCondition{
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 15px;
+}
+.screenCondition .item:nth-child(1){
+    width: 500px;
+    height: 50px;
+}
+.screenCondition .item:nth-child(2){
+    width: 760px;
+}
+.screenCondition .item:nth-child(3){
+    float: right;
+    position: relative;
+    top: -10px;
+}
+.item{
+    float: left;
+}
+.item .from-label{
+    float: left;
+    width: 90px;
+    font-size: 14px;
+}
+.item .radio-label{
+    float: left;
+    width: 100px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.from-input{
+    float: left;
+    width: 150px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+.from-input:hover,.from-input:focus,.from-input:active{
+    border: 1px solid #4F8BC7;
+}
+.table-list{
+    width: 100%;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.bill-list{
+    width: 100%;
+    border-collapse:collapse;
+    transition: all 1s;
+    min-width: 1100px;
+}
+.bill-list thead tr{
+    border-bottom: 1px solid #eee;
+}
+.bill-list thead th{
+    font-weight: normal;
+    padding: 15px;
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+}
+.bill-list tbody td{
+    padding: 15px;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+}
+.bill-list tbody tr{
+    transition: all 1s;
+}
+.bill-list tbody tr:hover{
+    background: #F3F6F8;
+    border-radius: 10px;
+}
+.list-small-btn{
+    transition: all 1s;
+    background: #70BA4E;
+    color: #FFF;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.list-small-btn:hover{
+    background: #079712;
+}
+.notHave{
+    color: #999;
+}
+
+.affirm-btn{
+    transition: all 1s;
+    background: #CFCFCF;
+    color: #FFF;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.affirm-btn:hover{
+    background: #079712;
+}
+
+.paging{
+    width: 100%;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.paging .up{
+    float: left;
+}
+.paging .next{
+    float: right;
+}
+.paging span{
+    border: 1px solid #B6D0E8;
+    padding: 5px 20px;
+    background: #B6D0E8;
+    color: #FFF;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.paging-disabled{
+    background: #FAFAFA !important;
+    color: #C9C9C9 !important;
+    border: 1px solid #e6e6e6 !important;
+    cursor: not-allowed !important;
+}
+
+.plan{
+    height: 34px;
+    width: 304px;
+}

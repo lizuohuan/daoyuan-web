@@ -1,0 +1,117 @@
+.page-top{
+    height: 100px;
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+.page-logo{
+    float: left;
+    width: 300px;
+    height: 70px;
+    background: #eee;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    background: url("../img/logo.png");
+}
+.search-input{
+    position: relative;
+    background: #F5F7F9;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 30px;
+    width: 300px;
+    padding-left: 30px;
+    top: 27px;
+    transition: all 0.5s;
+}
+.search-input:focus{
+    width: 380px;
+}
+
+.search-btn{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 50%;
+    background: #B6D0E8;
+    top: 27px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+.search-btn span{
+    color: #FFF;
+    position: relative;
+    top: 14px;
+    font-size: 18px
+}
+
+.page-right{
+    float: right;
+    transition: all 1s;
+}
+.search-bar{
+    width: 400px;
+    position: relative;
+}
+
+.contact-us{
+    text-align: center;
+}
+.nav-menu{
+    color: #666;
+    transition: all 0.5s;
+    display: block;
+    width: 120px;
+    line-height: 100px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nav-menu:hover{
+    background: #4F8BC7;
+    color: #FFF;
+}
+
+.personal-data{
+    width: 120px;
+    text-align: center;
+    transition: all 1s;
+    position: relative;
+    margin-right: 15px;
+}
+.menu-div{
+    width: 120px;
+    position: absolute;
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    margin-top: 10px;
+    display: none;
+}
+.active-menu{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: all .5s;
+}
+.menu{
+    padding: 10px 0;
+}
+.menu li{
+    padding: 0 10px;
+}
+.menu li a{
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    transition: all 0.5s;
+}
+.menu li a:hover{
+    color: #4F8BC7;
+}

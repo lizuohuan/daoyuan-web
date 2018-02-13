@@ -1,0 +1,22 @@
+.page-bottom{
+    height: 100px;
+    background: #959595;
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+    display: table;
+    margin-top: 50px;
+}
+.bottom-font{
+    display: table-cell;
+    vertical-align: middle;
+}
+.bottom-font p{
+    margin: 0;
+    color: #FFF;
+    font-size: 13px;
+    line-height: normal;
+}
+.bottom-font p:first-child{
+    margin-bottom: 10px;
+}
